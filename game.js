@@ -9,19 +9,20 @@ let botScr = 0;
 
 
  
-let userMove = prompt("what would you choose? 1. Wood, 2. Axe or 3. Water (please give your answer in choise number)") 
+let userMove = prompt("what would you choose? 1. Wood, 2. Axe or 3. Water (please give your answer in choise number)")
+userMove.toLowerCase() 
 let botMove = Math.floor(Math.random() * 3) + 1 + "";
 switch(userMove) {
 
-case "1" || "1.":
+case "wood" || "1":
 window.alert("olet puu!")
 break;
 
-case "2" || "2.":
+case "axe" || "2":
 window.alert("very sharp!")
 break;
 
-case "3" || "3.":
+case "water" || "3":
 window.alert("don't forget to drink some water")
 break; 
 
@@ -30,19 +31,16 @@ default:
 window.alert("error you die")
 
 }
-let wood = "1" || "1.";
-let axe = "2" || "2.";
-let water = "3" || "3.";
 
 gameLogic(userMove, botMove)
 
 // Fuctions
 
-function gameLogic() {
+function gameLogic(userMove, botMove) {
 
-wood > water;
-axe > wood;
-water > axe;
+"wood" || "1" > "water" || "3";
+"axe" || "2" > "wood" || "1";
+"water" || "3" > "axe" || "2";
 // "1" = "1";
 // "2" = "2";
 // "3" = "3";
