@@ -62,7 +62,7 @@ botScr = botScr + 1 }
     else if (botMove == "3" && userMove == "3") { 
         window.alert("Draw! Contestants drowned & that's boring!");
         }        
-        window.alert(`Scores: You - ${userScr} | Bot - ${botScr}`)  
+        window.alert(`Scores: You - ${userScr}/3 | Bot - ${botScr}/3`)  
     }
     
 
