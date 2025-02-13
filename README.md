@@ -1,5 +1,5 @@
 # Woodchopper-game
-It's rock paper scissor, but lame! In this game you have to choose between Axe, Wood or Water:
+It's rock paper scissor, but for log-lovers! In this game you have to choose between Axe, Wood or Water:
 
 Rulez:
 1. Axe chops trees, but gets rusty in the water. 
